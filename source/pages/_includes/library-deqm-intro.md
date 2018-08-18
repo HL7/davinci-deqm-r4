@@ -1,6 +1,6 @@
 
 {% assign id = {{page.id}} %}
-source file: source/pages/\_includes/{{id}}-intro.md
+
 
 {{site.data.structuredefinitions.[id].description}}
 
@@ -16,13 +16,13 @@ The following data-elements are mandatory (i.e data MUST be present).
 1. A valid, machine-friendly name
 1. A human-friendly title
 1. A date the library content was last changed
-1. Publisher and contact information
+1. Publisher and contact informatio
 1. Concise description of the library content
 1. A date the library content was approved by the publisher
 1. A date when the library content was last reviewed
 1. Contents of the library in at least one media format
 
-Each {{site.data.structuredefinitions.[id].type}} *should* have ([Must Support](guidance.html#must-support)):
+Each {{site.data.structuredefinitions.[id].type}} *should* have ([QI Core *Must Support*]):
 
 1. A clear description of the purpose of the library
 1. Clinical usage notes for the library
