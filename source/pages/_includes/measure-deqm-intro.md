@@ -27,7 +27,7 @@ The following data-elements are mandatory (i.e data MUST be present).
 1. The scoring method used for the measure
 1. The meaning of a higher score
 
-Each {{site.data.structuredefinitions.[id].type}} *should* have ([QI Core *Must Support*]):
+Each {{site.data.structuredefinitions.[id].type}} *should* have ([Must Support]({{site.data.fhir.qicore}}/index.html#must-support)):
 
 1. A clear description of the purpose of the measure
 1. Clinical usage notes for the measure

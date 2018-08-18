@@ -17,7 +17,7 @@ The following data-elements are mandatory (i.e data MUST be present).
 1. The organization that reported the data
 1. The reporting period
 
-Each {{site.data.structuredefinitions.[id].type}} *should* have ([Must Support]{{site.data.fhir.qicore}}#must-support)):
+Each {{site.data.structuredefinitions.[id].type}} *should* have ([Must Support]({{site.data.fhir.qicore}}/index.html#must-support)):
 
 1. Reference to all the resources involved in producing the report
 

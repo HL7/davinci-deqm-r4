@@ -22,7 +22,7 @@ The following data-elements are mandatory (i.e data MUST be present).
 1. A date when the library content was last reviewed
 1. Contents of the library in at least one media format
 
-Each {{site.data.structuredefinitions.[id].type}} *should* have ([QI Core *Must Support*]):
+Each {{site.data.structuredefinitions.[id].type}} *should* have ([Must Support]({{site.data.fhir.qicore}}/index.html#must-support)):
 
 1. A clear description of the purpose of the library
 1. Clinical usage notes for the library

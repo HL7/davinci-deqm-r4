@@ -12,7 +12,7 @@ The following data-elements are mandatory (i.e data MUST be present).
 
 1. A subscriber ID
 
-Each {{site.data.structuredefinitions.[id].type}} *should* have ([Must Support](guidance.html#must-support)):
+Each {{site.data.structuredefinitions.[id].type}} *should* have ([Must Support]({{site.data.fhir.qicore}}/index.html#must-support)):
 
 1. The beneficiary
 
