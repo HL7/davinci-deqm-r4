@@ -2,7 +2,7 @@
 <!--Hidden IG for de facto IG publishing-->
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="ig"/>
-  <url value="http://hl7.org/fhir/us/davinci-deqm-r4/ImplementationGuide/ig"/>
+  <url value="http://hl7.org/fhir/us/davinci-deqm/ImplementationGuide/ig"/>
   <version value="0.0.0"/>
   <name value="Data Exchange For Quality Measures R4 Artifacts"/>
   <status value="draft"/>

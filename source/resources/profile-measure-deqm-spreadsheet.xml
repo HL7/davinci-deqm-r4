@@ -922,7 +922,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s73"><Data ss:Type="String">extension.uri</Data></Cell>
     <Cell ss:StyleID="s78" ss:HRef="http://www.fhir.org/guides/test3/StructureDefinition/template-extension-"><Data
-      ss:Type="String">http://hl7.org/fhir/us/davinci-deqm-r4/StructureDefinition/extension-</Data></Cell>
+      ss:Type="String">http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s79"><Data ss:Type="String">introduction</Data></Cell>
@@ -1782,7 +1782,7 @@
     <Cell ss:StyleID="s105"/>
     <Cell ss:StyleID="s105"><Data ss:Type="String">1..*</Data></Cell>
     <Cell ss:StyleID="s105"/>
-    <Cell ss:StyleID="s105"><Data ss:Type="String">canonical(Library){http://hl7.org/fhir/us/davinci-deqm-r4/StructureDefinition/library-deqm}</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String">canonical(Library){http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/library-deqm}</Data></Cell>
     <Cell ss:StyleID="s105"><Data ss:Type="String">Y</Data></Cell>
     <Cell ss:StyleID="s111"/>
     <Cell ss:StyleID="s105"/>

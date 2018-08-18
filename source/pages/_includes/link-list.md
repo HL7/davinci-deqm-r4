@@ -6,4 +6,4 @@
 [DEQM Organization Profile]: r4todo.html
 [DEQM Practitioner Profile]: r4todo.html
 [DEQM Subscription Profile]: StructureDefinition-subscription-deqm.html
-[DEQM Measure Subscription Extension]: StructureDefinition-extension-measureSubscription.
+[DEQM Measure Subscription Extension]: StructureDefinition-extension-measureSubscription.html
