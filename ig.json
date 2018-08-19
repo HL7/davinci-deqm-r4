@@ -67,7 +67,7 @@
   ],
   "mappings" : "false",
   "no-inactive-codes" : "false",
-  "npm-name" : "hl7.fhir.davinci.deqm",
+  "npm-name" : "hl7.fhir.us.davinci-deqm",
   "paths" : {
     "output" : "output",
     "pages" : [
