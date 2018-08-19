@@ -1,1 +1,138 @@
-{"status": "draft", "canonicalBase": "http://hl7.org/fhir/us/davinci-deqm", "logging": ["progress"], "gen-examples": "false", "extraTemplates": ["mappings"], "source": "ig.xml", "mappings": "false", "no-inactive-codes": "false", "license": "CC0-1.0", "allviews": "true", "swagger": [{"capabilities": "server", "mode": "single"}], "resources": {"StructureDefinition/library-deqm": {"base": "StructureDefinition-library-deqm.html", "defns": "StructureDefinition-library-deqm-definitions.html"}, "CapabilityStatement/client": {"source": "capabilitystatement-client.xml", "base": "CapabilityStatement-client.html"}, "StructureDefinition/subscription-deqm": {"base": "StructureDefinition-subscription-deqm.html", "defns": "StructureDefinition-subscription-deqm-definitions.html"}, "StructureDefinition/extension-measureSubscription": {"base": "StructureDefinition-extension-measureSubscription.html", "defns": "StructureDefinition-extension-measureSubscription-definitions.html"}, "StructureDefinition/measure-deqm": {"base": "StructureDefinition-measure-deqm.html", "defns": "StructureDefinition-measure-deqm-definitions.html"}, "CapabilityStatement/server": {"source": "capabilitystatement-server.xml", "base": "CapabilityStatement-server.html"}, "StructureDefinition/measurereport-deqm": {"base": "StructureDefinition-measurereport-deqm.html", "defns": "StructureDefinition-measurereport-deqm-definitions.html"}}, "html-template": "html-template.html", "title": "Data Exchange For Quality Measures R4 Artifacts", "publisher": "DaVinci Project", "npm-name": "hl7.fhir.davinci.deqm", "paths": {"temp": "generated_output/temp", "pages": ["framework", "source/pages"], "resources": ["source/resources", "source/examples"], "output": "output", "qa": "generated_output/qa", "txCache": "generated_output/txCache", "specification": "http://build.fhir.org"}, "spreadsheets": ["profile-library-deqm-spreadsheet.xml", "profile-measure-deqm-spreadsheet.xml", "profile-measurereport-deqm-spreadsheet.xml", "profile-subcription-deqm-spreadsheet.xml"], "dependencyList": [{"name": "deqmstu3", "location": "http://hl7.org/fhir/us/davinci-deqm-stu3", "version": "dev"}, {"name": "qicore", "location": "http://hl7.org/fhir/us/qicore", "version": "dev"}], "jurisdiction": "US", "tool": "jekyll", "working-dir": "/Users/ehaas/Documents/FHIR/DaVinci-R4/", "topofpage": "true", "sct-edition": "http://snomed.info/sct/731000124108", "fixed-business-version": "0.0.0", "extensions": ["extension-measureSubscription"], "version": "3.4.0", "do-transforms": "false", "defaults": {"SearchParameter": {"template-base": "base.html"}, "Any": {"template-base": "base.html", "template-format": "format.html"}, "StructureMap": {"script": false, "content": false, "template-base": "ex.html", "profiles": false}, "ConceptMap": {"template-base": "base.html"}, "ValueSet": {"template-base": "base.html"}, "StructureDefinition": {"template-base": "sd.html", "template-defns": "sd-definitions.html", "template-mappings": "sd-mappings.html"}, "CodeSystem": {"template-base": "base.html"}, "OperationDefinition": {"template-base": "base.html"}, "CapabilityStatement": {"template-base": "base.html"}}, "igtemplate-dir": "/Users/ehaas/Documents/FHIR/IG-Template2/", "pub_url": "ehaas@healthedatainc.com", "broken-links": "warning"}
+{
+  "allviews" : "true",
+  "broken-links" : "warning",
+  "canonicalBase" : "http://hl7.org/fhir/us/davinci-deqm",
+  "defaults" : {
+    "Any" : {
+      "template-base" : "base.html",
+      "template-format" : "format.html"
+    },
+    "CapabilityStatement" : {
+      "template-base" : "base.html"
+    },
+    "CodeSystem" : {
+      "template-base" : "base.html"
+    },
+    "ConceptMap" : {
+      "template-base" : "base.html"
+    },
+    "OperationDefinition" : {
+      "template-base" : "base.html"
+    },
+    "SearchParameter" : {
+      "template-base" : "base.html"
+    },
+    "StructureDefinition" : {
+      "template-base" : "sd.html",
+      "template-defns" : "sd-definitions.html",
+      "template-mappings" : "sd-mappings.html"
+    },
+    "StructureMap" : {
+      "content" : false,
+      "profiles" : false,
+      "script" : false,
+      "template-base" : "ex.html"
+    },
+    "ValueSet" : {
+      "template-base" : "base.html"
+    }
+  },
+  "dependencyList" : [
+    {
+      "location" : "http://hl7.org/fhir/us/davinci-deqm-stu3",
+      "name" : "deqmstu3",
+      "version" : "dev"
+    },
+    {
+      "location" : "http://hl7.org/fhir/us/qicore",
+      "name" : "qicore",
+      "version" : "dev"
+    }
+  ],
+  "do-transforms" : "false",
+  "extensions" : [
+    "extension-measureSubscription"
+  ],
+  "extraTemplates" : [
+    "mappings"
+  ],
+  "fixed-business-version" : "0.0.0",
+  "gen-examples" : "false",
+  "html-template" : "html-template.html",
+  "igtemplate-dir" : "/Users/ehaas/Documents/FHIR/IG-Template2/",
+  "jurisdiction" : "US",
+  "license" : "CC0-1.0",
+  "logging" : [
+    "progress"
+  ],
+  "mappings" : "false",
+  "no-inactive-codes" : "false",
+  "npm-name" : "hl7.fhir.davinci.deqm",
+  "paths" : {
+    "output" : "output",
+    "pages" : [
+      "framework",
+      "source/pages"
+    ],
+    "qa" : "generated_output/qa",
+    "resources" : [
+      "source/resources",
+      "source/examples"
+    ],
+    "specification" : "http://build.fhir.org",
+    "temp" : "generated_output/temp",
+    "txCache" : "generated_output/txCache"
+  },
+  "pub_url" : "ehaas@healthedatainc.com",
+  "publisher" : "DaVinci Project",
+  "resources" : {
+    "CapabilityStatement/client" : {
+      "base" : "CapabilityStatement-client.html",
+      "source" : "capabilitystatement-client.xml"
+    },
+    "CapabilityStatement/server" : {
+      "base" : "CapabilityStatement-server.html",
+      "source" : "capabilitystatement-server.xml"
+    },
+    "StructureDefinition/extension-measureSubscription" : {
+      "base" : "StructureDefinition-extension-measureSubscription.html",
+      "defns" : "StructureDefinition-extension-measureSubscription-definitions.html"
+    },
+    "StructureDefinition/library-deqm" : {
+      "base" : "StructureDefinition-library-deqm.html",
+      "defns" : "StructureDefinition-library-deqm-definitions.html"
+    },
+    "StructureDefinition/measure-deqm" : {
+      "base" : "StructureDefinition-measure-deqm.html",
+      "defns" : "StructureDefinition-measure-deqm-definitions.html"
+    },
+    "StructureDefinition/measurereport-deqm" : {
+      "base" : "StructureDefinition-measurereport-deqm.html",
+      "defns" : "StructureDefinition-measurereport-deqm-definitions.html"
+    },
+    "StructureDefinition/subscription-deqm" : {
+      "base" : "StructureDefinition-subscription-deqm.html",
+      "defns" : "StructureDefinition-subscription-deqm-definitions.html"
+    }
+  },
+  "sct-edition" : "http://snomed.info/sct/731000124108",
+  "source" : "ig.xml",
+  "spreadsheets" : [
+    "profile-library-deqm-spreadsheet.xml",
+    "profile-measure-deqm-spreadsheet.xml",
+    "profile-measurereport-deqm-spreadsheet.xml",
+    "profile-subcription-deqm-spreadsheet.xml"
+  ],
+  "status" : "draft",
+  "swagger" : [
+    {
+      "capabilities" : "server",
+      "mode" : "single"
+    }
+  ],
+  "title" : "Data Exchange For Quality Measures R4 Artifacts",
+  "tool" : "jekyll",
+  "topofpage" : "true",
+  "version" : "3.5.0",
+  "working-dir" : "/Users/ehaas/Documents/FHIR/DaVinci-R4/"
+}
