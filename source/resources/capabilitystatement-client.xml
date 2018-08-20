@@ -20,7 +20,7 @@
 	</contact>
 	<description value="This resource defines the expected capabilities "/>
 	<kind value="requirements"/>
-	<fhirVersion value="3.4.0"/>
+	<fhirVersion value="3.5.0"/>
 <!--	<acceptUnknown value="extensions"/>-->
 	<format value="xml"/>
 	<format value="json"/>
