@@ -39,9 +39,9 @@
   },
   "dependencyList" : [
     {
-      "location" : "http://hl7.org/fhir/us/davinci-deqm-stu3",
+      "location" : "http://hl7.org/fhir/us/davinci-deqm/STU3",
       "name" : "deqmstu3",
-      "version" : "dev"
+      "version" : "0.1.0"
     },
     {
       "location" : "http://hl7.org/fhir/us/qicore",
@@ -67,7 +67,7 @@
   ],
   "mappings" : "false",
   "no-inactive-codes" : "false",
-  "npm-name" : "hl7.fhir.us.davinci-deqm",
+  "npm-name" : "hl7.fhir.us.davinci_deqm",
   "paths" : {
     "output" : "output",
     "pages" : [
