@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="ig"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="/Users/ehaas/Documents/FHIR/Davinci-DEQM-r4/source/resources"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="/Users/ehaas/Documents/FHIR/Davinci-DEQM-r4/source/examples"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
+    <valueString value="/Users/ehaas/Documents/FHIR/Davinci-DEQM-r4/framework"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
+    <valueString value="/Users/ehaas/Documents/FHIR/Davinci-DEQM-r4/source/pages"/>
+  </extension>
+  <url value="http://hl7.org/fhir/us/davinci-deqm/ImplementationGuide/ig"/>
+  <version value="0.1.0"/>
+  <name value="Data Exchange For Quality Measures R4 Artifacts"/>
+  <status value="draft"/>
+  <publisher value="DaVinci Project"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Used by permission of DaVinci Project, all rights reserved Creative Commons License"/>
+  <packageId value="hl7.fhir.us.davinci_deqm"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="3.5.0"/>
+  <fhirVersion value="3.6.0"/>
+  <dependsOn id="deqmstu3">
+    <uri value="http://hl7.org/fhir/us/davinci-deqm/STU3"/>
+    <packageId value="hl7.fhir.us.davinci-deqm.stu3"/>
+    <version value="dev"/>
+  </dependsOn>
+  <dependsOn id="qicore">
+    <uri value="http://hl7.org/fhir/us/qicore"/>
+    <packageId value="hl7.fhir.us.qicore"/>
+    <version value="dev"/>
+  </dependsOn>
+  <definition>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/extension-measureSubscription"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/subscription-deqm"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/measurereport-deqm"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/measure-deqm"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/library-deqm"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CapabilityStatement/server"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CapabilityStatement/client"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <page>
+      <nameUrl value="index.html"/>
+      <title value="Data Exchange For Quality Measures R4 Artifacts Homepage"/>
+      <generation value="markdown"/>
+      <page>
+        <nameUrl value="profiles.html"/>
+        <title value="Profiles/Extensions"/>
+        <generation value="markdown"/>
+        <page>
+          <nameUrl value="StructureDefinition-library-deqm.html"/>
+          <title value="StructureDefinition Library DEQM"/>
+          <generation value="generated"/>
+        </page>
+        <page>
+          <nameUrl value="StructureDefinition-measure-deqm.html"/>
+          <title value="StructureDefinition Measure DEQM"/>
+          <generation value="generated"/>
+        </page>
+        <page>
+          <nameUrl value="StructureDefinition-measurereport-deqm.html"/>
+          <title value="StructureDefinition MeasureReport DEQM"/>
+          <generation value="generated"/>
+        </page>
+        <page>
+          <nameUrl value="StructureDefinition-extension-measureSubscription.html"/>
+          <title value="StructureDefinition Extension measureSubscription"/>
+          <generation value="generated"/>
+        </page>
+      </page>
+      <page>
+        <nameUrl value="terminology.html"/>
+        <title value="Terminology"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="capstatements.html"/>
+        <title value="Capabilitity Statements"/>
+        <generation value="markdown"/>
+        <page>
+          <nameUrl value="CapabilityStatement-client.html"/>
+          <title value="capabilitystatement Client"/>
+          <generation value="generated"/>
+        </page>
+        <page>
+          <nameUrl value="CapabilityStatement-server.html"/>
+          <title value="CapabilityStatement Server"/>
+          <generation value="generated"/>
+        </page>
+      </page>
+      <page>
+        <nameUrl value="downloads.html"/>
+        <title value="Downloads"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="all-examples.html"/>
+        <title value="All Examples"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="toc.html"/>
+        <title value="Table of Contents"/>
+        <generation value="markdown"/>
+      </page>
+    </page>
+    <parameter>
+      <code value="apply"/>
+      <value value="jurisdiction"/>
+    </parameter>
+    <parameter>
+      <code value="generate-json"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="generate-xml"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="generate-turtle"/>
+      <value value="true"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

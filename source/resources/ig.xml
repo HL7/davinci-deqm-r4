@@ -24,10 +24,51 @@
       <description value="A test example to show how a implementation guide works"/>
       <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/patient"/>|<exampleBoolean value="true|false"/>
     </resource>   -->
+    <!-- ============ Home Page =============== -->
+
     <page>
-      <nameUrl value="index.md"/>
+      <nameUrl value="index.html"/>
       <title value="Data Exchange For Quality Measures R4 Artifacts Homepage"/>
       <generation value="markdown"/>
+      <!-- ============ Profiles Page =============== -->
+      <page><nameUrl value="profiles.html"/><title value="Profiles/Extensions"/><generation value="markdown"/>
+      <!-- ============ Profiles and examples=============== -->
+
+      <page><nameUrl value="StructureDefinition-library-deqm.html"/><title value="StructureDefinition Library DEQM"/><generation value="generated"/></page>
+
+      <page><nameUrl value="StructureDefinition-measure-deqm.html"/><title value="StructureDefinition Measure DEQM"/><generation value="generated"/></page>
+
+      <page><nameUrl value="StructureDefinition-measurereport-deqm.html"/><title value="StructureDefinition MeasureReport DEQM"/><generation value="generated"/></page>
+      <!-- ============ End Profiles and examples=============== -->
+
+
+      <!-- ============ Extensions and examples =============== -->
+
+      <page><nameUrl value="StructureDefinition-extension-measureSubscription.html"/><title value="StructureDefinition Extension measureSubscription"/><generation value="generated"/></page>
+      <!-- ============ End Extensions and examples =============== -->
+
     </page>
+    <!-- ============ Terminology Page =============== -->
+
+      <page><nameUrl value="terminology.html"/><title value="Terminology"/><generation value="markdown"/></page>
+      <!-- ============ CapabilityStatement Page =============== -->
+      <page><nameUrl value="capstatements.html"/><title value="Capabilitity Statements"/><generation value="markdown"/>
+      <!-- ============ CapabilityStatements    =============== -->
+
+      <page><nameUrl value="CapabilityStatement-client.html"/><title value="capabilitystatement Client"/><generation value="generated"/></page>
+
+      <page><nameUrl value="CapabilityStatement-server.html"/><title value="CapabilityStatement Server"/><generation value="generated"/></page>
+      <!-- ============ End CapabilityStatements    =============== -->
+
+    </page>
+
+      <page><nameUrl value="downloads.html"/><title value="Downloads"/><generation value="markdown"/></page>
+
+      <page><nameUrl value="all-examples.html"/><title value="All Examples"/><generation value="markdown"/></page>
+
+      <page><nameUrl value="toc.html"/><title value="Table of Contents"/><generation value="markdown"/></page>
+
+    </page>
+
   </definition>
 </ImplementationGuide>

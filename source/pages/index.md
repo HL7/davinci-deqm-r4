@@ -19,7 +19,7 @@ active: home
 
 
 
-## Introduction
+### Introduction
 
 DaVinci Data Exchange For Quality Measures R4 Artifacts.  The Profiles and CapabilityStatements in this guide are used and referenced in the  
 [Data Exchange For Quality Measures Implementation Guide].  See that Guide for Background and Guidance on using these artifacts.

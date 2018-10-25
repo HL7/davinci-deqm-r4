@@ -41,7 +41,7 @@
     {
       "location" : "http://hl7.org/fhir/us/davinci-deqm/STU3",
       "name" : "deqmstu3",
-      "version" : "0.1.0"
+      "version" : "dev"
     },
     {
       "location" : "http://hl7.org/fhir/us/qicore",
@@ -58,7 +58,6 @@
   ],
   "fixed-business-version" : "0.1.0",
   "gen-examples" : "false",
-  "html-template" : "html-template.html",
   "igtemplate-dir" : "/Users/ehaas/Documents/FHIR/IG-Template2/",
   "jurisdiction" : "US",
   "license" : "CC0-1.0",
@@ -133,6 +132,6 @@
   "title" : "Data Exchange For Quality Measures R4 Artifacts",
   "tool" : "jekyll",
   "topofpage" : "true",
-  "version" : "3.5.0",
+  "version" : "3.6.0",
   "working-dir" : "/Users/ehaas/Documents/FHIR/DaVinci-R4/"
 }

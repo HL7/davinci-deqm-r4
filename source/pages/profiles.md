@@ -4,7 +4,7 @@ layout: default
 active: profiles
 ---
 
-### Profiles Defined in this Implementation Guide
+#### Profiles Defined in this Implementation Guide
 {:.no_toc}
 
 |Resource Type|Profile Name|
@@ -19,7 +19,7 @@ active: profiles
 
 <br />
 
-## Extensions
+### Extensions
 
 ### *STU3* Extensions defined for this implementation guide:
 {:.no_toc}
